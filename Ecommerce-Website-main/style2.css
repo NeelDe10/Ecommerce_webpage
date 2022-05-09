@@ -1,0 +1,60 @@
+/* Alert info */
+.alert {
+    margin-bottom: 0px;
+   }
+.alert-info {
+    color: #ffffff;
+    background-color: crimson;
+    border-color: #bee5eb;
+}
+
+.alert p{
+    text-align: center;
+}
+
+/* Nav bar */
+.navbar img{
+    height: 50px;
+}
+.removed button {
+    background: crimson;
+    color: #ffffff;
+}
+.removed button:hover {
+background-color: crimson;
+    color: #ffffff;
+}
+
+/* Carousel Images */
+.carousel-control-prev-icon{
+    background-color: crimson;
+    border-radius: 12px;
+
+}
+.carousel-control-next-icon{
+    background-color: crimson;
+    border-radius: 12px;
+}
+
+/* SELECT QUANTITY DROPDOWN & ADD TO CART BUTTON HERE  */
+.custom-select{
+    width: auto;
+}
+
+
+.add-to-cart button{
+    background-color: crimson;
+    border: crimson;
+}
+.add-to-cart button:hover{
+    background-color: crimson;
+    color: #ffffff;
+
+}
+
+/* Similar Items  */
+
+
+.my-footer{
+background: crimson;
+}

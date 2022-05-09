@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>React</title>
+    <style>@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+        * {
+          font-family: "Roboto", sans-serif;
+        }
+        body {
+          background: #20232a;
+        }
+        .container h1 {
+          color: crimson;
+          font-size: 5em;
+          font-weight: lighter;
+          text-align: center;
+        }
+        .container {
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 25px;
+        }
+        .container > p {
+          color: #fff;
+        }
+        .welcome-back {
+          margin: 35px auto;
+          background: #ccc;
+          border-radius: 12px;
+          padding: 25px;
+        }
+        .welcome-back h2 {
+          margin: 0 0 35px;
+          text-align: center;
+          font-size: 2.5em;
+          font-weight: normal;
+        }
+        .welcome-back button {
+          font-size: 2em;
+          background: #20232a;
+          color: rgb(97, 218, 251);
+          border: none;
+          padding: 15px;
+          width: 100%;
+          max-width: 300px;
+          margin: 0 auto;
+          cursor: pointer;
+          display: block;
+          border-radius: 12px;
+          transition: 0.3s;
+        }
+        .welcome-back button:hover {
+          color: #fff;
+          background: #000;
+        }
+        .welcome-back > p {
+          font-size: 1.2em;
+          text-align: center;
+          margin: 0 0 25px;
+          color: #980000;
+        }
+        .welcome-back p.downloading {
+          font-size: 2em;
+          color: #333;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ZENtech</h1>
+      <div class="welcome-back">
+        <h2>
+          ASUS is a Taiwan-based, multinational computer hardware and consumer electronics company that was established in 1989. Dedicated to creating products for today’s and tomorrow’s smart life, ASUS is the world’s No. 1 motherboard and gaming brand as well as a top-three consumer notebook vendor.
+
+        </h2>
+      </div>
+    </div>
+
+    <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="WelcomeBack.js"></script>
+    <script type="text/babel" src="CoolButton.js"></script>
+
+    <script type="text/babel">
+      ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+    </script>
+  </body>
+</html>
